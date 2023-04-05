@@ -32,7 +32,7 @@ public class Program1 {
 	@Test
 	public void verifyTitle() {
 		String actualTitle = driver.getTitle();
-		String expectedTitle = "Online Shopping site in India: Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in";
+		String expectedTitle = "Online Shopping site in India: Shop Online for Mobiles, Books, Watches, Shoes andn.in";
 		Assert.assertEquals(actualTitle, expectedTitle);
 	}
 
